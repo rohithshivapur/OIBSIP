@@ -117,3 +117,15 @@ An attacker may contact an employee while pretending to be a technical support r
 1. **Verify the person offering assistance:** Confirm the identity and role of unexpected support personnel.
 2. **Never share credentials:** Legitimate IT staff should not require users to disclose passwords or authentication codes.
 3. **Follow approved support procedures:** Use official help-desk channels and organizational processes for technical assistance.
+## 6. Comparison of Social Engineering Attacks
+
+| Attack Type | Primary Target | Psychological Lever | Best Countermeasure |
+|---|---|---|---|
+| Phishing | Employees and online users | Urgency, fear, trust | Security awareness training and email filtering |
+| Spear Phishing | Specific individuals or employees | Personalization and trust | Verify unexpected requests and use MFA |
+| Whaling | Senior executives and high-value individuals | Authority and urgency | Strong verification and approval procedures |
+| Vishing | Employees and customers | Authority and fear | Verify callers through trusted channels |
+| Smishing | Mobile users and employees | Urgency and curiosity | Avoid unknown links and verify messages |
+| Pretexting | Employees and organizations | Trust and authority | Identity verification and security procedures |
+| Baiting | Employees and computer users | Curiosity and temptation | Avoid unknown USB devices and downloads |
+| Quid Pro Quo | Employees and users | Helpfulness and promised benefit | Verify assistance and follow official support procedures |
