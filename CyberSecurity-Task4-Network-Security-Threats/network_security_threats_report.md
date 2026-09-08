@@ -144,19 +144,22 @@ Network security threats can affect the confidentiality, integrity, and availabi
 3. **Keep systems secure and updated:** Regular security assessments, timely updates, and proper configuration management reduce exploitable weaknesses.
 
 A layered security approach combined with continuous monitoring and user awareness is essential for reducing the risk posed by common network security threats.
+r the Secure Deployment of IPv6.*
+   :contentReference[oaicite:4]{index=4}
 ## 7. References
 
 1. National Institute of Standards and Technology (NIST). *Guidelines on Firewalls and Firewall Policy.*
-   :contentReference[oaicite:0]{index=0}
+   https://csrc.nist.gov/pubs/sp/800/41/r1/final
 
 2. Cybersecurity and Infrastructure Security Agency (CISA). *Understanding Denial-of-Service Attacks.*
-   :contentReference[oaicite:1]{index=1}
+   https://www.cisa.gov/news-events/news/understanding-denial-service-attacks
 
 3. Internet Engineering Task Force (IETF). *Network Ingress Filtering: Defeating Denial of Service Attacks which employ IP Source Address Spoofing.*
-   :contentReference[oaicite:2]{index=2}
+   https://www.rfc-editor.org/rfc/rfc2827
 
 4. Internet Corporation for Assigned Names and Numbers (ICANN). *DNS Security Extensions (DNSSEC).*
-   :contentReference[oaicite:3]{index=3}
+   https://www.icann.org/resources/pages/dnssec-qaa-2017-06-20-en
 
 5. National Institute of Standards and Technology (NIST). *Guidelines for the Secure Deployment of IPv6.*
-   :contentReference[oaicite:4]{index=4}
+   https://csrc.nist.gov/pubs/sp/800/119/final
+   
