@@ -66,3 +66,27 @@ Verify that patches were successfully installed and that systems and application
 ### Lifecycle Summary
 
 **Discovery → Assessment → Testing → Deployment → Verification**
+## 4. Seven-Step Patch Management Checklist
+
+Organizations can use the following checklist to improve their patch management process:
+
+1. **Maintain an accurate asset inventory**  
+   Keep a current list of computers, servers, applications, operating systems, and network devices.
+
+2. **Monitor for vulnerabilities and updates**  
+   Track security advisories, vendor updates, and CVEs that may affect organizational systems.
+
+3. **Prioritize patches based on risk**  
+   Give higher priority to critical vulnerabilities, especially those that are actively exploited or exposed to the internet.
+
+4. **Test patches before deployment**  
+   Test important updates in a controlled environment to identify compatibility or stability problems.
+
+5. **Deploy patches systematically**  
+   Apply approved patches according to their risk priority and organizational maintenance schedule.
+
+6. **Verify successful installation**  
+   Confirm that patches were installed correctly and that affected systems are functioning normally.
+
+7. **Document and review the process**  
+   Maintain records of patch deployments, failures, exceptions, and remediation actions. Regularly review the process for improvement.
