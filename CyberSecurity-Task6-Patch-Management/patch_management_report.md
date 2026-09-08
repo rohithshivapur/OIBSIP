@@ -142,3 +142,19 @@ Organizations may have many available updates and limited time or resources to a
 
 6. MITRE. *Common Vulnerabilities and Exposures (CVE).*  
    https://www.cve.org/
+### Consequences of Poor Patch Management
+
+Poor patch management can lead to:
+
+- Data breaches and exposure of sensitive information.
+- Malware and ransomware infections.
+- Unauthorized access to systems and networks.
+- Service disruption and operational downtime.
+- Compliance violations and regulatory consequences.
+- Financial losses and damage to organizational reputation.
+
+According to the IBM Cost of a Data Breach Report, the global average cost of a data breach reached approximately **$4.88 million in 2024**. This demonstrates the potentially significant financial impact of security incidents.
+
+The 2017 WannaCry ransomware attack affected hundreds of thousands of computers across numerous countries and demonstrated how widely exploited vulnerabilities can cause major operational disruption when systems remain unpatched.
+
+Timely patch management helps organizations reduce their exposure to known vulnerabilities and lowers the likelihood and potential impact of security incidents.
