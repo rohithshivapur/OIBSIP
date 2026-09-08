@@ -57,9 +57,11 @@ Command:
 nmap -Pn 10.38.156.240
 ```
 
-Purpose:
+The basic scan identified the following open TCP ports:
 
-The basic scan was used to check the target for commonly scanned TCP ports.
+- **135/tcp — msrpc**
+- **139/tcp — netbios-ssn**
+- **445/tcp — microsoft-ds**
 
 ### 2. Service Version Detection
 
@@ -69,9 +71,13 @@ Command:
 nmap -Pn -sV 10.38.156.240
 ```
 
-Purpose:
+Service version detection identified:
 
-The `-sV` option attempts to identify the services and their versions running on open ports.
+- **135/tcp — msrpc — Microsoft Windows RPC**
+- **139/tcp — netbios-ssn — Microsoft Windows netbios-ssn**
+- **445/tcp — microsoft-ds**
+
+The scan also identified the operating system family as Microsoft Windows.
 
 ### 3. Operating System Detection
 
@@ -81,49 +87,66 @@ Command:
 nmap -Pn -O 10.38.156.240
 ```
 
-Purpose:
+The OS detection scan identified:
 
-The `-O` option attempts to identify the operating system of the target host.
+- **Device type:** General purpose
+- **Running:** Microsoft Windows 11
+- **OS details:** Microsoft Windows 11 24H2–25H2
 
 ## Scan Findings
 
-The scans produced the following results:
-
-- Target host was detected as up.
-- 1000 TCP ports were scanned.
-- No open TCP ports were identified in the scanned ports.
-- Most ports were filtered and did not respond.
-- Service version detection did not identify any exposed TCP services.
-- OS detection was inconclusive because Nmap received insufficient information to provide a specific operating-system fingerprint.
-
-### Port and Service Analysis
+The Nmap scans identified three open TCP ports:
 
 | Port | State | Service | Security Analysis |
 |------|-------|---------|-------------------|
-| No open ports identified | — | No exposed TCP service detected | No directly exposed TCP service was observed during the scan |
+| 135/tcp | Open | MSRPC | Windows RPC can expose remote procedure call functionality and should be restricted to trusted networks. |
+| 139/tcp | Open | NetBIOS-SSN | NetBIOS over TCP can expose Windows file and network-sharing functionality and should not normally be exposed to untrusted networks. |
+| 445/tcp | Open | Microsoft-DS / SMB | SMB is used for Windows file and printer sharing. Unnecessary exposure can increase the attack surface and should be restricted using firewall rules and network segmentation. |
 
-Since no open TCP ports were identified, there were no exposed services that could be individually assessed for service-specific vulnerabilities.
+The scans also showed that most other scanned TCP ports were closed or filtered.
 
 ## Security Analysis
 
-The scan did not identify any open TCP ports on the target within the scanned port range.
+The three open ports identified are commonly associated with Windows networking:
 
-This reduces the directly observable TCP attack surface from the perspective of this scan. However, security cannot be determined from a single Nmap scan alone.
+### Port 135 – MSRPC
 
-Possible reasons for the filtered results include:
+Port 135 is associated with Microsoft RPC services.
 
-- Firewall rules.
-- Network filtering.
-- Host-based security controls.
-- Services not listening on the scanned TCP ports.
+**Security concern:** If unnecessarily exposed to untrusted networks, RPC services can increase the attack surface.
 
-The OS detection result was inconclusive, so no specific operating system was assumed from the scan.
+**Recommended protection:**
+- Restrict access using Windows Firewall.
+- Allow RPC only from trusted networks or systems.
+- Keep Windows fully patched.
+
+### Port 139 – NetBIOS-SSN
+
+Port 139 is associated with NetBIOS Session Service and legacy Windows networking.
+
+**Security concern:** Exposure can reveal Windows networking information and increase the attack surface.
+
+**Recommended protection:**
+- Disable NetBIOS where it is not required.
+- Restrict port 139 using firewall rules.
+- Avoid exposing it directly to the public Internet.
+
+### Port 445 – Microsoft-DS / SMB
+
+Port 445 is commonly used for SMB file and printer sharing.
+
+**Security concern:** SMB exposure has historically been associated with serious security vulnerabilities and unauthorized network access.
+
+**Recommended protection:**
+- Restrict SMB access to trusted networks.
+- Keep Windows and SMB-related components patched.
+- Block unnecessary inbound SMB traffic at network boundaries.
 
 ## Screenshots
 
 The following screenshots document the scans performed:
 
-1. `01_basic_scan.png` – Basic Nmap scan
+1. `01_basic_scan.png` – Basic Nmap scan showing open ports
 2. `02_service_version.png` – Service version detection
 3. `03_os_detection.png` – OS detection
 
@@ -137,6 +160,6 @@ The complete terminal results are available in:
 
 Nmap was successfully used to perform basic network, service-version, and OS-detection scans against an authorized private/local target.
 
-The scan identified no open TCP ports in the scanned range and therefore no exposed TCP services requiring service-specific security analysis.
+The scan identified three open TCP ports: **135, 139, and 445**, which are associated with Windows networking services. These services should be appropriately restricted and protected because unnecessary exposure can increase the system's attack surface.
 
-Network scanning is an important security assessment technique because it helps identify exposed services and understand a system's attack surface. However, scans should always be performed with proper authorization and should be combined with other security assessment techniques for a complete security evaluation.
+The scan also identified the target as **Microsoft Windows 11**. Network scanning is an important security assessment technique because it helps identify exposed services and understand potential security risks. Scans should always be performed with proper authorization.
