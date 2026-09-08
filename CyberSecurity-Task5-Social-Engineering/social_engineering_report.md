@@ -138,3 +138,19 @@ Employees can reduce the risk of social engineering attacks by following these b
 - **3. Never share credentials:** Do not share passwords, one-time passwords (OTPs), MFA codes, or other authentication information with unverified individuals.
 - **4. Avoid unknown devices and downloads:** Do not connect unknown USB devices or download software and files from untrusted sources.
 - **5. Report suspicious activity:** Immediately report suspected phishing messages, unusual calls, suspicious requests, or other potential social engineering attempts to the appropriate security or IT team.
+## 8. References
+
+1. Cybersecurity and Infrastructure Security Agency (CISA). *Avoiding Social Engineering and Phishing Attacks.*  
+   https://www.cisa.gov/topics/cyber-threats-and-advisories
+
+2. National Institute of Standards and Technology (NIST). *Phishing Guidance.*  
+   https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing
+
+3. Federal Trade Commission (FTC). *Phishing.*  
+   https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing
+
+4. Microsoft Security. *What is Social Engineering?*  
+   https://www.microsoft.com/en-us/security/business/security-101/what-is-social-engineering
+
+5. Cybersecurity and Infrastructure Security Agency (CISA). *Recognize and Report Phishing.*  
+   https://www.cisa.gov/stopransomware
