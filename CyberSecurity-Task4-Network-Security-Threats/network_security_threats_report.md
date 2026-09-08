@@ -144,8 +144,6 @@ Network security threats can affect the confidentiality, integrity, and availabi
 3. **Keep systems secure and updated:** Regular security assessments, timely updates, and proper configuration management reduce exploitable weaknesses.
 
 A layered security approach combined with continuous monitoring and user awareness is essential for reducing the risk posed by common network security threats.
-r the Secure Deployment of IPv6.*
-   :contentReference[oaicite:4]{index=4}
 ## 7. References
 
 1. National Institute of Standards and Technology (NIST). *Guidelines on Firewalls and Firewall Policy.*
