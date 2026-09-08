@@ -123,3 +123,13 @@ DNS poisoning can result in:
 1. **Use DNSSEC:** DNS Security Extensions help validate DNS responses and reduce the risk of forged DNS records.
 2. **Secure DNS infrastructure:** Keep DNS servers updated, properly configured, and protected with appropriate access controls.
 3. **Use trusted DNS services and monitoring:** Monitor DNS activity for unusual changes and use reputable DNS resolution services.
+## 5. Comparison of Network Security Threats
+
+| Attack | Attack Vector | Who Is at Risk? | Difficulty to Execute | Ease of Mitigation |
+|---|---|---|---|---|
+| DoS/DDoS | Excessive network traffic or requests | Websites, servers, online services | Medium to High | Medium |
+| MITM | Intercepting network communication | Users and organizations | Medium | Medium to High |
+| IP Spoofing | Forged source IP addresses | Networks and online services | Medium | Medium |
+| DNS Poisoning/Spoofing | Manipulated DNS information | Internet users and organizations | Medium | Medium to High |
+
+The difficulty and mitigation levels can vary depending on the target's security controls, network architecture, and the attacker's resources.
