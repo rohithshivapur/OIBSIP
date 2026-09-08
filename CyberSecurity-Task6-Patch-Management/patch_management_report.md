@@ -123,3 +123,22 @@ Organizations with many devices and systems may find it difficult to track patch
 Organizations may have many available updates and limited time or resources to apply all of them immediately.
 
 **Solution:** Prioritize patches using vulnerability severity, exploit availability, asset exposure, and business impact. Address critical and actively exploited vulnerabilities first.
+## 6. References
+
+1. National Institute of Standards and Technology (NIST). *Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology.*  
+   https://csrc.nist.gov/pubs/sp/800/40/r4/final
+
+2. Cybersecurity and Infrastructure Security Agency (CISA). *Known Exploited Vulnerabilities Catalog.*  
+   https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+
+3. National Institute of Standards and Technology (NIST). *National Vulnerability Database (NVD).*  
+   https://nvd.nist.gov/
+
+4. Microsoft Security. *WannaCry: What You Need to Know.*  
+   https://www.microsoft.com/en-us/security/blog/
+
+5. U.S. Government Accountability Office (GAO). *Data Protection: Actions Taken by Equifax and Federal Agencies in Response to the 2017 Breach.*  
+   https://www.gao.gov/products/gao-18-559
+
+6. MITRE. *Common Vulnerabilities and Exposures (CVE).*  
+   https://www.cve.org/
