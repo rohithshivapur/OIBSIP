@@ -133,3 +133,14 @@ DNS poisoning can result in:
 | DNS Poisoning/Spoofing | Manipulated DNS information | Internet users and organizations | Medium | Medium to High |
 
 The difficulty and mitigation levels can vary depending on the target's security controls, network architecture, and the attacker's resources.
+## 6. Conclusion
+
+Network security threats can affect the confidentiality, integrity, and availability of systems and data. DoS/DDoS attacks can disrupt services, MITM attacks can compromise communications, IP spoofing can hide the source of malicious traffic, and DNS poisoning can redirect users to fraudulent destinations.
+
+### Key Takeaways for Network Administrators
+
+1. **Monitor network activity:** Regular monitoring helps identify unusual traffic, unauthorized access, and potential attacks at an early stage.
+2. **Apply strong security controls:** Firewalls, encryption, secure authentication, DNS security, and traffic filtering help reduce network exposure.
+3. **Keep systems secure and updated:** Regular security assessments, timely updates, and proper configuration management reduce exploitable weaknesses.
+
+A layered security approach combined with continuous monitoring and user awareness is essential for reducing the risk posed by common network security threats.
