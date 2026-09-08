@@ -129,3 +129,12 @@ An attacker may contact an employee while pretending to be a technical support r
 | Pretexting | Employees and organizations | Trust and authority | Identity verification and security procedures |
 | Baiting | Employees and computer users | Curiosity and temptation | Avoid unknown USB devices and downloads |
 | Quid Pro Quo | Employees and users | Helpfulness and promised benefit | Verify assistance and follow official support procedures |
+## 7. Employee Security Awareness Checklist
+
+Employees can reduce the risk of social engineering attacks by following these basic security practices:
+
+- **1. Verify unexpected requests:** Confirm unusual requests for money, credentials, sensitive information, or access through a trusted communication channel.
+- **2. Check messages carefully:** Inspect sender addresses, links, attachments, spelling, and unusual requests before responding.
+- **3. Never share credentials:** Do not share passwords, one-time passwords (OTPs), MFA codes, or other authentication information with unverified individuals.
+- **4. Avoid unknown devices and downloads:** Do not connect unknown USB devices or download software and files from untrusted sources.
+- **5. Report suspicious activity:** Immediately report suspected phishing messages, unusual calls, suspicious requests, or other potential social engineering attempts to the appropriate security or IT team.
