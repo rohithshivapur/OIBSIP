@@ -42,3 +42,30 @@ Organizations can reduce the risk and impact of DoS/DDoS attacks through the fol
 1. **Traffic filtering:** Use firewalls, access-control rules, and filtering systems to identify and block malicious or abnormal traffic.
 2. **Rate limiting:** Limit the number of requests accepted from individual sources to prevent resource exhaustion.
 3. **DDoS protection services:** Use traffic-monitoring and mitigation services designed to detect and absorb large-scale malicious traffic before it reaches critical systems.
+## 2. Man-in-the-Middle (MITM) Attack
+
+### How It Works
+
+A Man-in-the-Middle (MITM) attack occurs when an attacker secretly intercepts communication between two parties. The attacker may monitor, modify, or redirect the communication while making the participants believe they are communicating directly with each other.
+
+MITM attacks can occur on insecure or compromised networks, particularly when communication is not properly encrypted or when users connect to untrusted Wi-Fi networks.
+
+### Real-World Example
+
+A common example is an attacker creating or compromising a public Wi-Fi network and intercepting users' network traffic. If a user accesses services without adequate encryption or certificate validation, sensitive information such as login credentials or session data may be exposed.
+
+### Impact
+
+MITM attacks can result in:
+
+- Theft of login credentials and sensitive information.
+- Interception of confidential communications.
+- Modification of data during transmission.
+- Session hijacking.
+- Privacy and financial losses.
+
+### Mitigation Techniques
+
+1. **Use encrypted communication:** Use HTTPS, TLS, and other secure protocols to protect data while it is being transmitted.
+2. **Use secure networks:** Avoid connecting to unknown or untrusted Wi-Fi networks and use a trusted VPN when appropriate.
+3. **Verify certificates and authentication:** Proper certificate validation and strong authentication mechanisms help prevent attackers from impersonating legitimate services.
