@@ -102,3 +102,18 @@ A common example is an attacker leaving a USB drive labeled with an interesting 
 1. **Do not use unknown USB devices:** Avoid connecting unidentified or found USB drives to organizational computers.
 2. **Download software from trusted sources:** Obtain applications and files only from legitimate and verified sources.
 3. **Use security controls:** Endpoint protection, application controls, and device restrictions can reduce the risk from malicious files and removable media.
+## 5. Quid Pro Quo
+
+Quid pro quo is a social engineering technique in which an attacker offers a benefit, service, or assistance in exchange for information or an action from the victim.
+
+The attacker may pretend to provide technical support, a service, or another useful benefit. The victim may then provide sensitive information or perform an action believing that they are receiving legitimate assistance.
+
+### Example
+
+An attacker may contact an employee while pretending to be a technical support representative and offer to fix a computer problem. The attacker may then ask the employee to reveal login credentials or disable a security control.
+
+### Prevention Measures
+
+1. **Verify the person offering assistance:** Confirm the identity and role of unexpected support personnel.
+2. **Never share credentials:** Legitimate IT staff should not require users to disclose passwords or authentication codes.
+3. **Follow approved support procedures:** Use official help-desk channels and organizational processes for technical assistance.
