@@ -74,3 +74,31 @@ A documented example of pretexting is the **Ubiquiti employee fraud incident**, 
 1. **Verify identities:** Confirm unexpected requests through an independent and trusted communication channel.
 2. **Follow security procedures:** Employees should follow established verification and approval processes for sensitive requests.
 3. **Limit sensitive information:** Do not disclose passwords, authentication codes, financial information, or other confidential data to unverified individuals.
+## 4. Baiting
+
+Baiting is a social engineering attack that uses something attractive or interesting to trick a victim into performing an unsafe action. The bait may be physical, such as an infected USB drive, or digital, such as a malicious download or fake software update.
+
+Baiting relies on psychological triggers such as curiosity, temptation, and the expectation of receiving something useful or valuable.
+
+### Types of Baiting
+
+- **Physical Baiting:** An attacker may leave an infected USB drive in a location where employees are likely to find and connect it to a computer.
+- **Digital Baiting:** An attacker may offer fake software, free downloads, files, or other attractive content that contains malicious code or redirects the victim to an unsafe website.
+
+### How Baiting Works
+
+1. The attacker prepares an attractive physical or digital bait.
+2. The bait is placed where the intended victim is likely to encounter it.
+3. The victim interacts with the bait out of curiosity or perceived usefulness.
+4. The interaction may result in malware installation, credential theft, or unauthorized access.
+5. The attacker uses the resulting access or information for further malicious activity.
+
+### Example
+
+A common example is an attacker leaving a USB drive labeled with an interesting title, such as "Salary Information," in an organization's workplace. An employee may connect the device to a computer out of curiosity, potentially exposing the system to malware.
+
+### Prevention Measures
+
+1. **Do not use unknown USB devices:** Avoid connecting unidentified or found USB drives to organizational computers.
+2. **Download software from trusted sources:** Obtain applications and files only from legitimate and verified sources.
+3. **Use security controls:** Endpoint protection, application controls, and device restrictions can reduce the risk from malicious files and removable media.
