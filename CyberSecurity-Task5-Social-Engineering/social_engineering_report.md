@@ -45,3 +45,32 @@ One well-known example is the **2016 phishing campaign targeting John Podesta**,
 2. **Check links and senders:** Carefully inspect email addresses, domains, and URLs before clicking.
 3. **Use multi-factor authentication (MFA):** MFA provides an additional layer of protection if credentials are compromised.
 4. **Provide security awareness training:** Regular training helps employees recognize phishing indicators and report suspicious messages.
+## 3. Pretexting
+
+Pretexting is a social engineering technique in which an attacker creates a false story or scenario to gain the victim's trust and obtain sensitive information or access.
+
+The attacker usually pretends to be someone the victim would normally trust, such as a coworker, manager, technical support employee, bank representative, or other authority figure.
+
+### How Pretexting Works
+
+A typical pretexting attack involves:
+
+1. The attacker creates a believable false identity or situation.
+2. The attacker researches information that makes the story appear convincing.
+3. The attacker contacts the victim and establishes credibility.
+4. The attacker asks the victim to provide information or perform an action.
+5. The obtained information may then be used for unauthorized access or further attacks.
+
+### Example Scenario
+
+An attacker may impersonate an organization's IT support employee and contact a staff member claiming that a technical issue requires the employee to confirm their username, reset their password, or provide an authentication code.
+
+### Case Study
+
+A documented example of pretexting is the **Ubiquiti employee fraud incident**, in which attackers impersonated company executives and used fraudulent communications to convince employees to transfer funds. The incident demonstrated how attackers can exploit trust and authority rather than directly exploiting technical vulnerabilities.
+
+### Prevention Measures
+
+1. **Verify identities:** Confirm unexpected requests through an independent and trusted communication channel.
+2. **Follow security procedures:** Employees should follow established verification and approval processes for sensitive requests.
+3. **Limit sensitive information:** Do not disclose passwords, authentication codes, financial information, or other confidential data to unverified individuals.
