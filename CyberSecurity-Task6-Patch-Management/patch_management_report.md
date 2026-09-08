@@ -39,3 +39,30 @@ Poor patch management can lead to:
 - Service disruption and operational downtime.
 - Compliance violations and regulatory consequences.
 - Financial losses and damage to organizational reputation.
+## 3. Patch Management Lifecycle
+
+A structured patch management process helps organizations identify and address vulnerabilities in a controlled and repeatable manner.
+
+### 1. Discovery
+
+Identify the organization's hardware, operating systems, applications, and other software assets. Maintain an up-to-date inventory so that vulnerable systems can be identified.
+
+### 2. Assessment
+
+Review available security updates and determine which systems are affected. Assess vulnerabilities based on factors such as severity, exposure, and potential business impact.
+
+### 3. Testing
+
+Test patches in a controlled environment before deploying them widely. Testing helps identify compatibility problems, application failures, or unexpected system behavior.
+
+### 4. Deployment
+
+Deploy approved patches to affected systems according to their priority and risk level. Critical security updates should generally receive higher priority.
+
+### 5. Verification
+
+Verify that patches were successfully installed and that systems and applications continue to operate correctly. Record deployment results and address any systems where patching failed.
+
+### Lifecycle Summary
+
+**Discovery → Assessment → Testing → Deployment → Verification**
