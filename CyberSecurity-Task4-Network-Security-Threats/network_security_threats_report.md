@@ -96,3 +96,30 @@ IP spoofing can lead to:
 1. **Ingress and egress filtering:** Network administrators can filter packets with invalid or unexpected source addresses to reduce spoofed traffic.
 2. **Strong authentication:** Do not rely only on source IP addresses for authentication or authorization. Use stronger identity and access controls.
 3. **Network monitoring:** Monitor unusual traffic patterns and investigate unexpected source addresses or abnormal network behavior.
+## 4. DNS Poisoning / DNS Spoofing
+
+### How It Works
+
+DNS poisoning, also known as DNS spoofing, is an attack in which false DNS information is introduced into a DNS resolver's cache. When users request a domain name, the poisoned DNS information can cause them to be redirected to an incorrect or malicious IP address.
+
+This can allow attackers to redirect users from legitimate websites to fraudulent websites without the user immediately realizing that the destination has been changed.
+
+### Real-World Example
+
+A DNS spoofing attack can redirect users attempting to access a legitimate banking website to a fake website controlled by an attacker. If the victim enters login credentials on the fraudulent website, the information may be exposed to the attacker.
+
+### Impact
+
+DNS poisoning can result in:
+
+- Redirection to malicious or fraudulent websites.
+- Theft of login credentials and sensitive information.
+- Exposure to malware or phishing attacks.
+- Loss of user trust.
+- Disruption of access to legitimate services.
+
+### Mitigation Techniques
+
+1. **Use DNSSEC:** DNS Security Extensions help validate DNS responses and reduce the risk of forged DNS records.
+2. **Secure DNS infrastructure:** Keep DNS servers updated, properly configured, and protected with appropriate access controls.
+3. **Use trusted DNS services and monitoring:** Monitor DNS activity for unusual changes and use reputable DNS resolution services.
