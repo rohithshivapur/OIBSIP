@@ -69,3 +69,30 @@ MITM attacks can result in:
 1. **Use encrypted communication:** Use HTTPS, TLS, and other secure protocols to protect data while it is being transmitted.
 2. **Use secure networks:** Avoid connecting to unknown or untrusted Wi-Fi networks and use a trusted VPN when appropriate.
 3. **Verify certificates and authentication:** Proper certificate validation and strong authentication mechanisms help prevent attackers from impersonating legitimate services.
+## 3. IP Spoofing
+
+### How It Works
+
+IP spoofing is a technique in which an attacker changes the source IP address in network packets to make the traffic appear to come from another system or trusted source.
+
+Attackers may use spoofed IP addresses to hide the true origin of traffic, bypass certain network controls, or support attacks such as denial-of-service attacks.
+
+### Real-World Example
+
+IP spoofing has been used in large-scale DDoS attacks where attackers send packets with forged source addresses. This makes it more difficult for the victim to identify the actual sources of the malicious traffic and can also make defensive filtering more challenging.
+
+### Impact
+
+IP spoofing can lead to:
+
+- Difficulty identifying the true source of malicious traffic.
+- Bypassing of weak IP-based access controls.
+- Increased effectiveness of certain DoS and DDoS attacks.
+- Network traffic appearing to originate from trusted systems.
+- Complications during security monitoring and incident investigation.
+
+### Mitigation Techniques
+
+1. **Ingress and egress filtering:** Network administrators can filter packets with invalid or unexpected source addresses to reduce spoofed traffic.
+2. **Strong authentication:** Do not rely only on source IP addresses for authentication or authorization. Use stronger identity and access controls.
+3. **Network monitoring:** Monitor unusual traffic patterns and investigate unexpected source addresses or abnormal network behavior.
